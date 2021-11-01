@@ -1,2 +1,2 @@
-# problem-per-day
+# Problem per Day
 ALGO, DS, etc problems I solve (almost) everyday!
