@@ -5,6 +5,8 @@ from pprint import pprint
 def repeatedString(s, n):
     if len(s) == 1:
         return n if s == 'a' else 0
+    if 'a' not in s:
+        return 0
 
     rpt = int(n / len(s)) if (n % len(s) == 0) else int(n / len(s)) + 1
 
